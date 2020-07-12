@@ -1,0 +1,19 @@
+#hub-apps {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+#hub-apps .card {
+    margin: 0.5em;
+    height: 10rem;
+}
+
+#hub-apps a {
+    flex: 1 1 45%;
+    text-decoration: none;
+}
+
+#hub-apps a:hover .card-body {
+    background-color: #7f858b;
+}
